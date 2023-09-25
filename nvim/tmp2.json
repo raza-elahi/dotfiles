@@ -1,0 +1,80 @@
+{
+  "header": {
+    "resultCode": "S0000",
+    "resultMessage": ""
+  },
+  "payload": {
+    "coupons": [
+      {
+        "coupon": {
+          "id": 100018588,
+          "value": 22,
+          "unit": "PERCENT",
+          "mainTitle": "22%付与 (最大)",
+          "title": "PP-205948_Store level",
+          "expirationDate": "2023-09-30T14:59:59Z",
+          "imageUrl": "https://stg-dms.paypay-corp.co.jp/document/v2/public/DM350332006222426112/binary",
+          "label": null,
+          "couponType": "STORE",
+          "isYPremiumCoupon": false,
+          "serviceSegments": null,
+          "labels": [],
+          "couponGroup": "OFFLINE",
+          "weeklyMonthlyCoupon": null,
+          "redemptionStartDate": "2023-08-31T15:00:00Z",
+          "metadata": {
+            "webStoreDetail": {
+              "storeLimitationText": null
+            }
+          }
+        },
+        "couponChannelInfo": {
+          "type": "STORE",
+          "id": "637557220958502913",
+          "channelId": "57e42885-aa24-49f1-a993-dc21ffabcc87",
+          "brandChannelId": null,
+          "iconImageUrl": "https://stg-dms.paypay-corp.co.jp/document/v2/public/DM326201851308443648/binary",
+          "name": "スーパーあつた_1"
+        },
+        "distance": null,
+        "minimumTransaction": 100,
+        "applicableBrands": null
+      },
+      {
+        "coupon": {
+          "id": 100018593,
+          "value": 26,
+          "unit": "PERCENT",
+          "mainTitle": "26%付与 (最大)",
+          "title": "PP-205948_Store level2",
+          "expirationDate": "2023-09-30T14:59:59Z",
+          "imageUrl": "https://stg-dms.paypay-corp.co.jp/document/v2/public/DM350334084986597376/binary",
+          "label": null,
+          "couponType": "STORE",
+          "isYPremiumCoupon": false,
+          "serviceSegments": null,
+          "labels": [],
+          "couponGroup": "OFFLINE",
+          "weeklyMonthlyCoupon": null,
+          "redemptionStartDate": "2023-08-31T15:00:00Z",
+          "metadata": {
+            "webStoreDetail": {
+              "storeLimitationText": null
+            }
+          }
+        },
+        "couponChannelInfo": {
+          "type": "STORE",
+          "id": "637555962533085184",
+          "channelId": "0c6b38d4-1bd2-4668-99ea-a517c225d154",
+          "brandChannelId": null,
+          "iconImageUrl": "https://stg-dms.paypay-corp.co.jp/document/v2/public/DM326247685051951104/binary",
+          "name": "居酒屋あつた_2"
+        },
+        "distance": null,
+        "minimumTransaction": 100,
+        "applicableBrands": null
+      }
+    ]
+  }
+}
