@@ -8,6 +8,11 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   use {
+      'christoomey/vim-tmux-navigator',
+      lazy = false
+  }
+
+  use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.2',
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
@@ -20,11 +25,20 @@ return require('packer').startup(function(use)
 		  vim.cmd('colorscheme rose-pine')
 	  end
   }
+  use {
+      'windwp/nvim-autopairs',
+      config = function()
+          require("nvim-autopairs").setup {}
+      end
+  }
+  use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
 
-  use { 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate'} }
-  use { 'theprimeagen/harpoon' }
+  use 'theprimeagen/harpoon'
+
   use 'mbbill/undotree'
+  
   use 'tpope/vim-fugitive'
+  
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v2.x',
